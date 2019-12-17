@@ -1,3 +1,16 @@
+## Coinfig
+
+`bot.properties` file should be like this:
+
+```
+[Bot]
+token=your_tg_token_here
+use_proxy=True|False
+proxy=your_proxy_url_here
+```
+
+## Docker
+
 ### Misc
 
 sudo chmod a+rwx /var/run/docker.sock
