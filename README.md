@@ -37,3 +37,7 @@ docker load --input cambot.tar
 docker run --device=/dev/video0:/dev/video0 cambot
 ```
 
+
+```
+fswebcam -S 10 -l 30 pic_%Y-%m-%d_%H:%M:%S.jpg
+```
